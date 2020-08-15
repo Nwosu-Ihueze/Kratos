@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #040494;
+    text-align: left;
+    background-color: #fff;
+    overflow-x: hidden;
+  }
+  .navbar-brand{
+    color: #000000;
+}
+.navbar-nav a{
+    color: #000000;
+}
+.welcome{
+    padding-bottom: 5%;
+}
+#welcome h1{
+  line-height: 54px;
+  font-weight: 600;
+}
+.btn-primary{
+    color: #fff;
+    background: #085981 !important;
+    border-color: #085981 !important;
+}
+#welcome span {
+    color:  #fdda24;
+  }
+  .about{
+    background-color: rgba(8, 89, 129, 0.09);
+    padding-top: 5%;
+    padding-bottom: 5%;
+ }
+ .about .btn-primary{
+     align-items: center;
+     text-align: center;
+ }
+ #services .card-img-top {
+    width: 40%;
+    height: 30%;
+    margin-top: 15%;
+}
+
+#services .card-title {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    font-style: bold;
+}
+
+#services p {
+    text-align: center;
+    line-height: 24px;
+    font-size: 20px;
+    top: 0% !important;
+}
+
+#services .card {
+    box-shadow: -5px 20px 50px rgba(0, 0, 0, 0.09);
+    border: none;
+    margin-bottom: 20%;
+}
+
+#services h2 {
+    border-bottom: 3px solid #fdda24;
+}
+
+#services p {
+    line-height: 24px;
+}
+
+#services .text {
+    line-height: 24px;
+}
+.portfolio {
+    background-color: rgba(8, 89, 129, 0.09);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.portfolio .btn-primary {
+    margin-top: 90%;
+    margin-left: 30%;
+}
+
+.text1,
+.text2 {
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+    line-height: 19px;
+    top: 29px !important;
+}
+
+#portfolio h3 {
+    border-bottom: 3px solid #fdda24 !important;
+}
+
+#portfolio p {
+    line-height: 24px;
+}
+
+.contact{
+margin-bottom: 5%;
+margin-top: 5%;
+}
+.form-control{
+    background: rgba(8, 89, 129, 0.09) !important;
+}
+.contact h4{
+    font-size: 24px;
+    color: #000000 !important;
+}
+.contact p{
+    font-size: 30px;
+}
+.footer{
+    color: #fff;
+    background: #085981;
+}
+
+
+
+
