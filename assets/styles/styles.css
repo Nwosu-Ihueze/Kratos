@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Lato', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -11,11 +11,9 @@ body {
     background-color: #fff;
     overflow-x: hidden;
   }
-  .navbar-brand{
-    color: #000000;
-}
 .navbar-nav a{
-    color: #000000;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 24px;
 }
 .welcome{
     padding-bottom: 5%;
@@ -23,20 +21,30 @@ body {
 #welcome h1{
   line-height: 54px;
   font-weight: 600;
+  font-size: 45px;
 }
 .btn-primary{
     color: #fff;
     background: #085981 !important;
     border-color: #085981 !important;
+    font-size: 24px;
 }
 #welcome span {
     color:  #fdda24;
+    font-size: 45px;
   }
   .about{
     background-color: rgba(8, 89, 129, 0.09);
     padding-top: 5%;
     padding-bottom: 5%;
  }
+ .about h3{
+     font-size: 30px;
+ }
+ .about p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
  .about .btn-primary{
      align-items: center;
      text-align: center;
@@ -55,10 +63,12 @@ body {
 }
 
 #services p {
-    text-align: center;
+    text-align: left;
     line-height: 24px;
     font-size: 20px;
     top: 0% !important;
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 5%;
 }
 
 #services .card {
@@ -66,11 +76,11 @@ body {
     border: none;
     margin-bottom: 20%;
 }
-
-#services h2 {
-    border-bottom: 3px solid #fdda24;
+#services .card-text{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    text-align: center;
 }
-
 #services p {
     line-height: 24px;
 }
@@ -88,22 +98,11 @@ body {
     margin-top: 90%;
     margin-left: 30%;
 }
-
-.text1,
-.text2 {
-    position: relative;
-    color: #fff;
-    font-size: 16px;
-    line-height: 19px;
-    top: 29px !important;
-}
-
-#portfolio h3 {
-    border-bottom: 3px solid #fdda24 !important;
-}
-
-#portfolio p {
+.portfolio .intro {
     line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    padding-top: 5%;
 }
 
 .contact{
@@ -123,6 +122,20 @@ margin-top: 5%;
 .footer{
     color: #fff;
     background: #085981;
+}
+.footer h6{
+    font-size: 24px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.footer .text-uppercase{
+    padding-bottom: 2%;
+}
+.footer a{
+    color: #fff;
+}
+.footer a:hover{
+    color: #fdda24;
 }
 
 
