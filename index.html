@@ -12,6 +12,8 @@
     <link href="./assets/styles/mobile.css" rel="stylesheet" />
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
       <!-- Navigation-->
@@ -56,9 +58,9 @@
                     <img src="./assets/images/kratos2.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-4">
-                    <h3>Why Us?</h3>
-                    <p>We are a warm and supportive team for our clients and their users. We believe that complex solutions are a sign of mediocrity</p>
-                    <a class="btn btn-x1 btn-primary mt-2" href="#">Read more</a>
+                    <h3 data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">Why Us?</h3>
+                    <p data-aos="fade-down" data-aos-delay="50" data-aos-duration="1500">We are a warm and supportive team for our clients and their users. We believe that complex solutions are a sign of mediocrity</p>
+                    <a class="btn btn-x1 btn-primary mt-2" href="#" data-aos="fade-down" data-aos-delay="50" data-aos-duration="1500">Read more</a>
                 </div>
             </div>
         </div>
@@ -68,13 +70,13 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4">
-                    <img src="./assets/images/services.png">
-                    <p class="text">Our Digital Transformation From<br> Idea To Implementation</p>
+                    <img src="./assets/images/services.png" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1500">
+                    <p class="text" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1500">Our Digital Transformation From<br> Idea To Implementation</p>
                 </div>
                 <div class="col-lg-8">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="card">
+                            <div class="card" data-aos="flip-right" data-aos-delay="50" data-aos-duration="1500">
                                 <div class="text-center">
                                     <img class="card-img-top" src="./assets/images/design.png" alt="Card image cap"></div>
                                 <div class="card-body">
@@ -84,7 +86,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="card">
+                            <div class="card" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1500">
                                 <div class="text-center">
                                     <img class="card-img-top" src="./assets/images/development.png" alt="Card image cap"></div>
                                 <div class="card-body">
@@ -94,7 +96,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="card">
+                            <div class="card" data-aos="flip-right" data-aos-delay="50" data-aos-duration="1500">
                                 <div class="text-center">
                                     <img class="card-img-top" src="./assets/images/strategy.png" alt="Card image cap"></div>
                                 <div class="card-body">
@@ -104,7 +106,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="card">
+                            <div class="card" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1500">
                                 <div class="text-center">
                                     <img class="card-img-top" src="./assets/images/implementation.png" alt="Card image cap"></div>
                                 <div class="card-body">
@@ -124,7 +126,7 @@
             <div class="row align-items-center">
                 <div class="col-md-4 my-5">
                     <!-- Card -->
-                    <div class="card card-image mt-5" style="background-image:linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./assets/images/kratos1.png);">
+                    <div class="card card-image mt-5" style="background-image:linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./assets/images/kratos1.png);" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
                         <!-- Content -->
                         <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
                             <div>
@@ -136,7 +138,7 @@
                     <!-- Card -->
                 </div>
                 <div class="col-md-4 my-5">
-                    <div class="card card-image mt-5" style="background-image:linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./assets/images/kratos3.jpg);">
+                    <div class="card card-image mt-5" style="background-image:linear-gradient( rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(./assets/images/kratos3.jpg);" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
                         <!-- Content -->
                         <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
                             <div>
@@ -147,8 +149,8 @@
                     </div>
                 </div>
                 <div class="col-md-4 my-5">
-                    <img src="./assets/images/portfolioe.png" alt="">
-                    <p class="intro">Over 12 years in practise, we are trusted by different global brands</p>
+                    <img src="./assets/images/portfolioe.png" alt="" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1500">
+                    <p class="intro" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1500">Over 12 years in practise, we are trusted by different global brands</p>
                 </div>
             </div>
         </div>
@@ -284,5 +286,15 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
      <!-- Core theme JS-->
     <script src="./assets/js/main.js"></script>
+    <!-- AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        $(document).ready(function(){
+          $(window).on("scroll", function () {
+          AOS.init();
+          });
+        });
+      </script>
+
 </body>
 </html>
