@@ -120,6 +120,14 @@ body {
     font-size: 20px;
     padding-top: 5%;
 }
+@media only screen and (max-width : 767px) {
+    .portfolio .btn-primary{
+       margin-left: 50%;
+    }
+    .about h3{
+        padding-top: 5%;
+    }
+    }
 
 .contact{
 margin-bottom: 5%;
